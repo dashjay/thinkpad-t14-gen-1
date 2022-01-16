@@ -142,14 +142,6 @@
 				<key>Path</key>
 				<string>SSDT-USB-Reset.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>TYPEC</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-TYPC.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -423,13 +415,9 @@
 				<data>AACbPg==</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
 				<key>enable-backlight-registers-fix</key>
-				<data>AQAAAA==</data>
-				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>enable-lspcon-support</key>
 				<data>AQAAAA==</data>
@@ -447,12 +435,8 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAwA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel UHD Graphics 620</string>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAACA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
